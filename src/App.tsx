@@ -1099,7 +1099,7 @@ function CheckoutModal({
 
       <div className="relative w-full max-w-lg overflow-hidden bg-white shadow-2xl z-10 animate-in fade-in zoom-in-95 duration-200">
         <div className="bg-white border-b border-[var(--color-border-color)] px-6 py-5 flex items-center justify-between">
-          <h2 className="font-serif font-bold text-[24px] text-[var(--color-text-primary)]">Finalizar Pedido</h2>
+          <h2 className="font-sans font-bold text-[24px] text-[var(--color-text-primary)] uppercase tracking-tight">Finalizar Pedido</h2>
           <button onClick={onClose} className="rounded-full p-2 hover:bg-[var(--color-bg-section)] text-[var(--color-text-muted)] transition-colors">
             <X className="h-5 w-5" />
           </button>
