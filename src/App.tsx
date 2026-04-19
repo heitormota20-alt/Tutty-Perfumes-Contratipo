@@ -1160,7 +1160,7 @@ function CheckoutModal({
                 Forma de Pagamento
               </label>
               <div className="flex flex-col gap-3">
-                {['Pix', 'Cartão de Crédito', 'Cartão de Débito'].map((method) => (
+                {['Pix', 'Cartão de Crédito', 'Cartão de Débito', 'Dinheiro'].map((method) => (
                   <label
                     key={method}
                     className={`flex items-center gap-3 cursor-pointer p-4 border rounded-[var(--radius-md)] text-[14px] transition-colors ${formData.paymentMethod === method
