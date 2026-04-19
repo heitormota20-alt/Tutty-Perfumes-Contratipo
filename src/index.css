@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Cinzel:wght@400;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3D1A00;
+  --color-accent: #C8860A;
+  --color-sale-green: #2ECC71;
+  --color-sale-orange: #E67E22;
+  --color-bg-base: #FFFFFF;
+  --color-bg-section: #F5F5F5;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #555555;
+  --color-text-muted: #999999;
+  --color-border-color: #E0E0E0;
+  --color-cta: #2B1500;
+  
+  --font-serif: "Cinzel", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer utilities {
+  .shadow-card {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  }
+  .shadow-hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  }
+  .shadow-cta {
+    box-shadow: 0 4px 16px rgba(43,21,0,0.3);
+  }
+}
